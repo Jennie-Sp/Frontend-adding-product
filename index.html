@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="classsheet">
+	<link rel="stylesheet" href="style.css">
+	<title>test</title>
+</head>
+<body>
+
+<main class="main">
+	<section class="item-block-header">
+		<h1>Добавление товара</h1>
+		<select>
+			<option>По умолчанию</option>
+			<option>По цене min</option>
+			<option>По цене max</option>
+			<option>По наименованию</option>
+		</select>
+	</section>
+	<div class="item-block">
+		<section class="add-item-block">
+			<form id="form-add-items" class="add-item-block2">
+				<h4>Наименование товара<sup><img src="tochka.svg" alt="Точка, означающая обязательное заполнение поля"></sup></h4>
+				<input class="add-item-block-entryField" type="text" name="name-item" placeholder="Введите наименование товара" maxlength="" required>
+				<h4>Описание товара</h4>
+				<textarea class="add-item-block-entryField" name="description-item" placeholder="Введите описание товара"></textarea>
+				<h4>Ссылка на изображение товара<sup><img src="tochka.svg" alt="Точка, означающая обязательное заполнение поля"></sup></h4>
+				<input class="add-item-block-entryField" type="text" name="link-item" placeholder="Введите ссылку" required>
+				<h4>Цена товара<sup><img src="tochka.svg" alt="Точка, означающая обязательное заполнение поля"></sup></h4>
+				<input class="add-item-block-entryField" type="text" name="price-item" placeholder="Введите цену" required>
+				<input class="add-item-block-submit" type="submit" name="submit-item" value="Добавить товар" disabled>
+			</form>
+		</section>
+		<section class="storage-item-block">
+			<div class="storage-item-block-card">
+				<div class="storage-item-block-card-del"><img src="del.svg" alt="Значок удаления товара"></div>
+				<div class="storage-item-block-card-img">
+					<img src="https://www.crystals.ru/uploads/local/field_photo/article_670/vozvrat-tovara.png?itok=YDKgGRVU" alt="Описание картинки">
+				</div>
+				<div class="storage-item-block-card-info">
+					<h2 class="storage-item-block-card-heading">Наименование товара</h2>
+					<p class="storage-item-block-card-text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+					<p class="storage-item-block-card-price">11 000 <span>руб.</span></p>
+				</div>
+			</div>
+			<div class="storage-item-block-card">
+				<div class="storage-item-block-card-del"><img src="del.svg" alt="Значок удаления товара"></div>
+				<div class="storage-item-block-card-img">
+					<img src="https://www.crystals.ru/uploads/local/field_photo/article_670/vozvrat-tovara.png?itok=YDKgGRVU" alt="Описание картинки">
+				</div>
+				<div class="storage-item-block-card-info">
+					<h2 class="storage-item-block-card-heading">Наименование товара</h2>
+					<p class="storage-item-block-card-text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+					<p class="storage-item-block-card-price">11 000 <span>руб.</span></p>
+				</div>
+			</div>
+			<div class="storage-item-block-card">
+				<div class="storage-item-block-card-del"><img src="del.svg" alt="Значок удаления товара"></div>
+				<div class="storage-item-block-card-img">
+					<img src="https://www.crystals.ru/uploads/local/field_photo/article_670/vozvrat-tovara.png?itok=YDKgGRVU" alt="Описание картинки">
+				</div>
+				<div class="storage-item-block-card-info">
+					<h2 class="storage-item-block-card-heading">Наименование товара</h2>
+					<p class="storage-item-block-card-text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+					<p class="storage-item-block-card-price">10 000 <span>руб.</span></p>
+				</div>
+			</div>
+			<div class="storage-item-block-card">
+				<div class="storage-item-block-card-del"><img src="del.svg" alt="Значок удаления товара"></div>
+				<div class="storage-item-block-card-img">
+					<img src="https://www.crystals.ru/uploads/local/field_photo/article_670/vozvrat-tovara.png?itok=YDKgGRVU" alt="Описание картинки">
+				</div>
+				<div class="storage-item-block-card-info">
+					<h2 class="storage-item-block-card-heading">Наименование товара</h2>
+					<p class="storage-item-block-card-text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+					<p class="storage-item-block-card-price">10 000 <span>руб.</span></p>
+				</div>
+			</div>
+			<div class="storage-item-block-card">
+				<div class="storage-item-block-card-del"><img src="del.svg" alt="Значок удаления товара"></div>
+				<div class="storage-item-block-card-img">
+					<img src="https://www.crystals.ru/uploads/local/field_photo/article_670/vozvrat-tovara.png?itok=YDKgGRVU" alt="Описание картинки">
+				</div>
+				<div class="storage-item-block-card-info">
+					<h2 class="storage-item-block-card-heading">Наименование товара</h2>
+					<p class="storage-item-block-card-text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+					<p class="storage-item-block-card-price">10 000 <span>руб.</span></p>
+				</div>
+			</div>
+		</section>
+	</div>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
